@@ -1,0 +1,6 @@
+framework module SketchLangFix {
+  umbrella header "SketchLangFix.h"
+
+  export *
+  module * { export * }
+}

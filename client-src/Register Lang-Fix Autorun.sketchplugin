@@ -1,0 +1,7 @@
+// (control v)
+#import './cocoascript_modules/sketch-runtime/sketch-runtime.js'
+(function(){
+    var actionID="com.turbobabr.sketch.lang-fix.applyFix";
+    var applicatorScriptFilePath=sketch.scriptPath.stringByDeletingLastPathComponent()+"/Apply Lang-Fix.sketchplugin";
+    SketchRuntime.registerAction(actionID,"Sketch Lang-Fix","Sketch Lang-Fix Registrator Script",applicatorScriptFilePath);
+})();

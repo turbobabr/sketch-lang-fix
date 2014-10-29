@@ -1,0 +1,5 @@
+#import './cocoascript_modules/sketch-runtime/sketch-runtime.js'
+(function(){
+    var actionID="com.turbobabr.sketch.lang-fix.applyFix";
+    SketchRuntime.unregisterAction(actionID);
+})();

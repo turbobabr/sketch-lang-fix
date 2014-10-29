@@ -1,0 +1,26 @@
+function loadFrameworks() {
+    if(NSClassFromString("TBRSketchLangFix")==null) {
+        var mocha=Mocha.sharedRuntime();
+
+        var pluginRoot=sketch.scriptPath.stringByDeletingLastPathComponent();
+        return [mocha loadFrameworkWithName:"SketchLangFix" inDirectory:pluginRoot+"/bin/"];
+    } else {
+        return true;
+    }
+
+    return false;
+}
+
+
+(function() {
+
+    if(!loadFrameworks()) {
+        print("Error: Something strange has happened - Can't load external framework!");
+        return;
+    }
+
+    if(doc) {
+        doc.displayMessage_timeout("🌍  LANG FIX WAS APPLIED!",4);
+    }
+
+})();
