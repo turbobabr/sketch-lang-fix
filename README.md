@@ -4,7 +4,7 @@ Sketch Lang-Fix is a small [Sketch App](http://bohemiancoding.com/sketch/) plugi
 
 This plugins substitutes the drawing area keyboard `keyUp:` and `keyDown:` event handlers to mutate them using key codes instead of characters. Thus, it works correctly for any keyboard input source and doesn't doesn't break Sketch functionality.
 
-> WARNING: This pluging uses undocumented APIs of Sketch App and might stop working at any moment.
+> WARNING: This plugin uses undocumented APIs of Sketch App and might stop working at any moment.
 
 ## Installation
 
