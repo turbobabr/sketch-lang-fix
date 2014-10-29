@@ -19,6 +19,7 @@ This plugins substitutes the drawing area keyboard `keyUp:` and `keyDown:` event
 ### Step #1: Testing applicator
 
 First, you have to test if plugin works correctly and handles the shorctuts:
+
 1. Execute 'Sketch App Menu' -> 'Plugins' -> 'Lang-Fix' -> 'Apply Lang-Fix' plugin.
 2. If it worked correctly you should see the following message at the bottom of your document:
 3. Now switch to non latin keyboard inut source and try to use shortcuts to create some shapes.
@@ -31,6 +32,7 @@ Running the applicator manually, like we did in the first step, is a really bori
 With the help of [Sketch DevTools Assistant](https://github.com/turbobabr/sketch-devtools-assistant) we can register an action that runs the applicator on Sketch launch automatically.
 
 Here are the steps to register the action:
+
 1. Be sure that [Sketch DevTools Assistant](https://github.com/turbobabr/sketch-devtools-assistant) is installed and running.
 2. Execute 'Sketch App Menu' -> 'Plugins' -> 'Lang-Fix' -> 'Register Lang-Fix Autorun' plugin.
 3. Restart Sketch App.
@@ -40,6 +42,7 @@ Here are the steps to register the action:
 ### Troubleshooting
 
 If shortcuts work but you're experiencing some Sketch App behaviour change you think was triggered by this plugin:
+
 1. Execute 'Sketch App Menu' -> 'Plugins' -> 'Lang-Fix' -> 'Unregister Lang-Fix Autorun' plugin ro remove this plugin from auto-launch list.
 2. [Open an issue](https://github.com/turbobabr/sketch-lang-fix/issues).
 
