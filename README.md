@@ -2,7 +2,7 @@ Sketch Lang-Fix
 ===============
 Sketch Lang-Fix is a small [Sketch App](http://bohemiancoding.com/sketch/) plugin that uses some hackery to solve the long standing problem with non working single letter shortcuts like `R`,`O`,`T`,`etc` when non latin keyboard input sources like `Russian`,`Ukrainian`,`Belarusian`,`Turkish`,`Greek`,`Hebrew` are used.
 
-This plugins substitutes the drawing area keyboard `keyUp:` and `keyDown:` event handlers to mutate them using key codes instead of characters. Thus, it works correctly for any keyboard input source and doesn't doesn't break Sketch functionality.
+This plugins substitutes the drawing area keyboard `keyUp:` and `keyDown:` event handlers to mutate them using key codes instead of characters. Thus, it works correctly for any keyboard input source and doesn't break Sketch functionality.
 
 > WARNING: This plugin uses undocumented APIs of Sketch App and might stop working at any moment.
 
@@ -17,7 +17,9 @@ I believe that the problem is that all the BC developers speak English, Dutch, S
 I don't want to dive into details again, here is the axiom:
 > Every time you switch your keyboard input source to non latin language - Sketch becomes the most awful tool you've ever used. PERIOD!
 
-I speak Russian, and I thought that no other person on the planet hates Sketch for this particular problem as I do.. but I was wrong :). For Russian shortcuts just don't work. During the testing process of this plugin I decided to try it with `Turkish` and found out that their default keyboard input actually has some latin characters but they are located differently than on the standard QWERTY keyboard, thus the workflow for Turkish designer look like this:
+I speak Russian, and I thought that no other person on the planet hates Sketch for this particular problem as I do.. but I was wrong :). For Russian - shortcuts just don't work.
+
+During the testing process of this plugin I decided to try it with `Turkish` and found out that their default keyboard input actually has some latin characters but they are located differently than on the standard QWERTY keyboard, thus the workflow for Turkish designer look like this:
 
 <img src="https://raw.githubusercontent.com/turbobabr/sketch-lang-fix/master/docs/turkish_hell_for_designers.png">
 
