@@ -20,7 +20,7 @@ This plugins substitutes the drawing area keyboard `keyUp:` and `keyDown:` event
 
 First, you have to test if plugin works correctly and handles the shorctuts:
 
-1. Execute 'Sketch App Menu' -> 'Plugins' -> 'Lang-Fix' -> 'Apply Lang-Fix' plugin.
+1. Execute `Sketch App Menu -> Plugins -> Lang-Fix -> Apply Lang-Fix` plugin.
 2. If it worked correctly you should see the following message at the bottom of your document: <img src="https://raw.githubusercontent.com/turbobabr/sketch-lang-fix/master/docs/applicator_notification.png">
 3. Now switch to non latin keyboard inut source and try to use shortcuts to create some shapes.
 4. If it worked out - proceed to the Step #2, otherwise [open an issue](https://github.com/turbobabr/sketch-lang-fix/issues).
@@ -34,7 +34,7 @@ With the help of [Sketch DevTools Assistant](https://github.com/turbobabr/sketch
 Here are the steps to register the action:
 
 1. Be sure that [Sketch DevTools Assistant](https://github.com/turbobabr/sketch-devtools-assistant) is installed and running.
-2. Execute 'Sketch App Menu' -> 'Plugins' -> 'Lang-Fix' -> 'Register Lang-Fix Autorun' plugin.
+2. Execute `Sketch App Menu -> Plugins -> Lang-Fix -> Register Lang-Fix Autorun` plugin.
 3. Restart Sketch App.
 4. If everything worked out, you should see the familiar message in automatically opened document: <img src="https://raw.githubusercontent.com/turbobabr/sketch-lang-fix/master/docs/applicator_notification.png">
 5. Check if the shortcuts are working as expected.
@@ -43,7 +43,7 @@ Here are the steps to register the action:
 
 If shortcuts work but you're experiencing some Sketch App behaviour change you think was triggered by this plugin:
 
-1. Execute 'Sketch App Menu' -> 'Plugins' -> 'Lang-Fix' -> 'Unregister Lang-Fix Autorun' plugin ro remove this plugin from auto-launch list.
+1. Execute `Sketch App Menu -> Plugins -> Lang-Fix -> Unregister Lang-Fix Autorun` plugin ro remove this plugin from auto-launch list.
 2. [Open an issue](https://github.com/turbobabr/sketch-lang-fix/issues).
 
 ## Change Log
